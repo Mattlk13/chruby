@@ -46,9 +46,9 @@
   support common dotfiles which other Ruby Switchers could support.
 * New environment variables: much like with dotfile proliferation,
   we should keep environment variable pollution to a minimum.
-* Ruby/OS specific workarounds: we should not tolerate the existence of bugs
-  in specific Rubies or Operating Systems. Instead we should strive to resolve
-  these bugs, to the benefit of all users.
+* Ruby, RubyGems, or OS specific workarounds: we should not tolerate the
+  existence of bugs in specific Rubies or Operating Systems. Instead we should
+  strive to resolve these bugs, to the benefit of all users.
 * Any [RVM]/[rbenv] specific feature: we should not blindly copy the features of
   [RVM] or [rbenv] in the hopes of making new users comfortable. Instead,
   we should question these features and rethink (or unthink) them.
@@ -60,7 +60,7 @@
   * Do they introduce possible Security risks?
 
 [Makefile]: https://gist.github.com/3224049
-[shunit2]: http://code.google.com/p/shunit2/
+[shunit2]: https://github.com/kward/shunit2#readme
 
 [bash]: http://www.gnu.org/software/bash/
 [zsh]: http://www.zsh.org/
